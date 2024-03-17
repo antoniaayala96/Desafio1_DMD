@@ -1,0 +1,86 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1652d261-3b34-43e1-9270-169e2864e6e3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Spa Ventas</ID>
+  <Name>Spa Ventas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Spa Ventas</DataSourceID>
+  <Schema>
+    <xs:schema id="Spa_x0020_Ventas" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Spa_x0020_Ventas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="fcffb37f-1070-4127-a990-b6edba609fa6">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_ventas" msprop:DbTableName="ventas" msprop:FriendlyName="ventas" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="4bdeecfb-4229-495b-843f-4c69468a4a29">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:FriendlyName="id" msprop:DbColumnName="id" msprop:design-time-name="8d40a35d-c111-494e-8413-51cb22168871">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Sexo" msprop:FriendlyName="Sexo" msprop:DbColumnName="Sexo" msprop:design-time-name="5753b104-72c1-482f-906c-55f9dafff3ab" type="xs:boolean" />
+                  <xs:element name="ingresos" msprop:FriendlyName="ingresos" msprop:DbColumnName="ingresos" msprop:design-time-name="168edf10-0b0e-45e9-a4fe-c0958ad8c6db" type="xs:double" />
+                  <xs:element name="PromVisit" msprop:FriendlyName="PromVisit" msprop:DbColumnName="PromVisit" msprop:design-time-name="9cd58f02-c099-4ef0-9aa7-48d82e251feb" type="xs:double" />
+                  <xs:element name="Edad" msprop:FriendlyName="Edad" msprop:DbColumnName="Edad" msprop:design-time-name="5d46642c-c979-4fdb-bc22-a54c0e8078fb" type="xs:unsignedByte" />
+                  <xs:element name="Sauna" msprop:FriendlyName="Sauna" msprop:DbColumnName="Sauna" msprop:design-time-name="d296066d-6fe6-4be6-8c0a-c941bba2f618" type="xs:boolean" />
+                  <xs:element name="Masaje" msprop:FriendlyName="Masaje" msprop:DbColumnName="Masaje" msprop:design-time-name="74612843-fd98-481e-9f0c-a7d5c345772e" type="xs:boolean" />
+                  <xs:element name="Hidro" msprop:FriendlyName="Hidro" msprop:DbColumnName="Hidro" msprop:design-time-name="59982620-690a-4985-a6b9-e4b551a8a2ac" type="xs:boolean" />
+                  <xs:element name="Yoga" msprop:FriendlyName="Yoga" msprop:DbColumnName="Yoga" msprop:design-time-name="932f9ea1-94d7-4f34-b423-75cd7bb50b53" type="xs:boolean" />
+                  <xs:element name="Sucursal" msprop:FriendlyName="Sucursal" msprop:DbColumnName="Sucursal" msprop:design-time-name="1b7b525d-6427-448f-aabe-f4c06e76cb67">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <Spa_x0020_Ventas xmlns="" />
+  </Schema>
+</DataSourceView>

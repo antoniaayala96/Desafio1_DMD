@@ -1,0 +1,199 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e59c3ffa-b934-498d-a9a7-53782980d28f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Spa Ventas</ID>
+  <Name>Spa Ventas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7634" scrolltop="-1297" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="14252" y="10460" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="ventas" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4357" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000005110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_ventas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7634</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1297</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="0076fb27-a36b-41f3-924d-dce7667efe22">
+      <ID>Ventas</ID>
+      <Name>Ventas</Name>
+      <DimensionID>Ventas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0b77f3d8-277d-40e8-b4f5-2f7221aec6d8">
+          <AttributeID>Sexo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="4219c1a3-5b07-4d36-bee5-fbde7c2439e2">
+      <ID>Ventas</ID>
+      <Name>Ventas</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="a1f5879c-d27a-4a53-bbad-5585b3694f26">
+          <ID>Ingresos</ID>
+          <Name>Ingresos</Name>
+          <Source dwd:design-time-name="b9662979-8f9c-4b19-a63a-7f698bc49d27">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9c96e8da-89fc-4fb6-8487-eb3638337548">
+              <TableID>dbo_ventas</TableID>
+              <ColumnID>ingresos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a3cb5de2-d9dc-4b99-a629-094bd92c18ec">
+          <ID>Prom Visit</ID>
+          <Name>Prom Visit</Name>
+          <Source dwd:design-time-name="22c6429c-b185-4db3-84b8-4e87b7dd7a11">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="816cffb2-d095-4606-b878-db12a91b1b14">
+              <TableID>dbo_ventas</TableID>
+              <ColumnID>PromVisit</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b96ad8ea-c680-4df6-96e4-0de082bcf283">
+          <ID>Edad</ID>
+          <Name>Edad</Name>
+          <Source dwd:design-time-name="1aa52f3a-d071-48c1-902c-3ea56834dc77">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1a96dbf6-8627-4fcc-bcf7-16fd47431892">
+              <TableID>dbo_ventas</TableID>
+              <ColumnID>Edad</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="60374c6d-2479-49a6-92cb-ad8108942ed7">
+          <ID>Ventas Count</ID>
+          <Name>Ventas Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="b66d7d56-b645-44da-a1fc-515b82d51774">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="48c141cb-e0d1-4b67-b40e-7e51b2d69256">
+              <TableID>dbo_ventas</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="65734b71-e485-47db-a8a9-0fcfed52fec2">
+          <ID>Ingresos - Ventas</ID>
+          <Name>Ingresos - Ventas</Name>
+          <Source dwd:design-time-name="2cfb3bbe-209d-4ab5-b93f-cbcc99755b94">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a5d3b242-3cb0-4a61-b36b-91a161a2f14c">
+              <TableID>dbo_ventas</TableID>
+              <ColumnID>ingresos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="99b8fd07-193a-4ee1-8dcb-c2e111fb9258">
+          <CubeDimensionID>Ventas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="646c9bfd-03f8-4a02-b520-2daf8d4d644d">
+              <AttributeID>Sexo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="af96dd11-26ca-46a5-82cd-383e1de92879">
+                  <DataType>Boolean</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="79f8c07a-4358-4b1b-92f9-7c1aa7c592de">
+                    <TableID>dbo_ventas</TableID>
+                    <ColumnID>Sexo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="66a8d2bf-b496-4d1a-ac31-2e2d34935e0d">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="84a5c0ab-191e-4657-a573-ff3091260c0b">
+                    <TableID>dbo_ventas</TableID>
+                    <ColumnID>ingresos</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="9e007fac-5448-4c33-bf7b-0bad472f65b9">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4561188c-92aa-4081-8f00-19e1e3434cc8">
+                    <TableID>dbo_ventas</TableID>
+                    <ColumnID>PromVisit</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="02758ca3-ccdb-4576-8d9d-2595e1f2c777">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="33d4cabf-cb6a-40c7-88d5-c2b6356e7595">
+                    <TableID>dbo_ventas</TableID>
+                    <ColumnID>Sucursal</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="6b1428dd-18bb-4523-b838-48a59a5626b8">
+    <DataSourceViewID>Spa Ventas</DataSourceViewID>
+  </Source>
+</Cube>
